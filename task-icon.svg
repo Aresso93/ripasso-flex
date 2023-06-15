@@ -1,8 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"> <!--il viewbox indica dove si può disegnare. Come se fosse un potenziale quadrato di 512x512 pixel
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"> <!--il viewbox indica dove si può disegnare. Come se fosse un potenziale quadrato di 512x512 pixel
 se cambio le proporzioni, smette di essere un quadrato-->
-  <circle stroke="crimson" stroke-width="50" fill="none" cx="256" cy="256" r="200" />
+  <circle stroke="black" stroke-width="3" fill="none" cx="50" cy="50" r="40" />
   <!--stroke indica il bordo e se mettiamo fill a none, il cerchio è trasparente-->
-  <line x1="256" y1="150" x2="256" y2="362" stroke-linecap="round" stroke-width="50px" stroke="crimson" />
-<line x1="150" y1="256" x2="362" y2="256" stroke-linecap="round" stroke-width="50px" stroke="crimson" />
+    <polygon stroke="black" fill="none" stroke-width="3" points="20,50 50,70 80,50 50,30" />
+     <polygon stroke="black" fill="crimson" stroke-width="3" points="40,50 50,68 60,50 50,32" />
 
 </svg>
