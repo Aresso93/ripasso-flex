@@ -1,0 +1,72 @@
+body *{
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    background-color: #004494;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: white;
+}
+
+.main-box{
+    display:flex;
+    flex-direction: column;
+    /* border: 1px solid red; */
+    /* width: 900px; */
+    max-width: 1000px;
+    height: 850px;
+}
+
+/*gli hr non funzionano in flex perché le proprietà flex sovrascrivono le loro, quindi dobbiamo dargli noi caratteristiche */
+
+p {
+    margin: 4px 0px;
+    /*ho messo del margine al p perché di suo già ha margine, ed è meglio mettere quello che vogliamo noi*/
+}
+
+h2, h3 {
+    margin: 8px 0px;
+}
+
+hr {
+    width: 100%;
+}
+
+.row {
+    /* border: 1px solid yellow; */
+    display: flex;
+    gap: 32px;
+    flex-wrap: wrap;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid green; */
+    flex: 1;
+    min-width: 300px;
+    /*300 perché solitamente è la risoluzione del telefono più scrauso*/
+}
+
+.social-box {
+display: flex;
+gap: 8px;
+}
+
+.social-span {
+    display: flex;
+    gap: 4px;
+}
+
+/*Con questo CSS sopra ho detto di mettere uno spazio tra le icone e il nome del loro sito, dato dai 4px del gap. Ho dovuto creare la classe social-span per dare loro questa proprietà*/
+
+/*editor di foto gratis e da browser: Photopea*/
+
+
+
+
+
+
